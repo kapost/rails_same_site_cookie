@@ -1,9 +1,5 @@
 module RailsSameSiteCookie
   class Configuration
-    attr_accessor :user_agent_regex
-
-    def initialize
-      @user_agent_regex = nil
-    end
+    attr_accessor :user_agent_regex, :send_same_site_none
   end
 end
